@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import VisionMission from "@/components/VisionMission";
 import Services from "@/components/Services";
 import AboutUs from "@/components/AboutUs";
+import Plans from "@/components/Plans";
 
 export default function HomePage() {
   return (
@@ -19,9 +20,13 @@ export default function HomePage() {
         <section id="services">
           <Services />
         </section>
-                <section id="about">
+         <section id="plans">
+          <Plans />
+        </section>
+        <section id="about">
           <AboutUs />
         </section>
+       
       </div>
       <Footer />
     </main>
