@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col justify-start items-center text-center  bg-cover bg-center bg-no-repeat pt-32 pb-16 px-4"
     style={{
-    backgroundImage: "url('/headerImage.jpg')",
+    backgroundImage: "url('/headerImage.png')",
     minHeight: "300px", 
   }}>
   <motion.div
