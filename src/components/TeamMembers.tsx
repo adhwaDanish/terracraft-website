@@ -14,7 +14,7 @@ export default function HoverRevealCards() {
     { title: "Surveyor Drafter I", reveal: "Aisya" },
     { title: "Surveyor Drafter II", reveal: "Nur Balqis" },
     { title: "Archi Drafter I", reveal: "Elyn" },
-    { title: "Archi Drafter I", reveal: "Nureen" },
+    { title: "Archi Drafter II", reveal: "Nureen" },
   ];
 
   // ✅ useState at top level
