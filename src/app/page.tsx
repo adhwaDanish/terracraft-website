@@ -5,6 +5,8 @@ import VisionMission from "@/components/VisionMission";
 import Services from "@/components/Services";
 import AboutUs from "@/components/AboutUs";
 import Plans from "@/components/Plans";
+import TeamMembers from "@/components/TeamMembers";
+import Clients from "@/components/Clients";
 
 export default function HomePage() {
   return (
@@ -23,9 +25,16 @@ export default function HomePage() {
          <section id="plans">
           <Plans />
         </section>
+        <section id="team">
+          <TeamMembers />
+        </section>
+        <section id="team">
+          <Clients />
+        </section>
         <section id="about">
           <AboutUs />
         </section>
+        
        
       </div>
       <Footer />

@@ -12,6 +12,7 @@ export default function Navbar() {
     { name: "Services", target: "services" },
     { name: "About Us", target: "about" },
     { name: "Plan", target: "plans" },
+    { name: "Team", target: "team" },
   ];
 
   const handleScroll = (targetId: string) => {
